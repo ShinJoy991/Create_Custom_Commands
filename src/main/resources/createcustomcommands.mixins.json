@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "shinjoy991.createcustomcommands.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "CreateCustomCommands.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
