@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT License"
+
+[[mods]]
+modId="createcustomcommands"
+version="3.1"
+displayName="Create Custom Commands
+"
+authors="ShinJoy991"
+description='''This mod allows you to create your desire commands, it adds some commands for shorten your typing, you can configs them!!
+
+Any issues just pm me on curseforge or github
+
+https://github.com/ShinJoy991/Create_Custom_Commands/issues
+
+https://www.curseforge.com/minecraft/mc-mods/create-custom-command
+
+
+'''
+
+[[dependencies."createcustomcommands"]]
+   modId="forge"
+   mandatory=true
+   versionRange="[36,)"
+   ordering="NONE"
+   side="BOTH"
+
+[[dependencies."createcustomcommands"]]
+   modId="minecraft"
+   mandatory=true
+   versionRange="[1.16.5,1.17)"
+   ordering="NONE"
+   side="BOTH"
