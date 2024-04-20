@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="MIT"
+
+[[mods]]
+modId="createcustomcommand"
+version="1.18-1"
+displayName="Create Custom Command\n"
+authors="ShinJoy991"
+#logoFile="logo.png"
+description='''
+
+Any issues just pm me on curseforge or github
+
+https://github.com/ShinJoy991/Mod_Name/issues
+
+https://www.curseforge.com/minecraft/mc-mods/mod_name
+
+'''
+
+[[dependencies.createcustomcommand]]
+modId="forge"
+mandatory=true
+versionRange="${forge_version_range}"
+ordering="NONE"
+side="BOTH"
+[[dependencies.createcustomcommand]]
+modId="minecraft"
+mandatory=true
+versionRange="${minecraft_version_range}"
+ordering="NONE"
+side="BOTH"
