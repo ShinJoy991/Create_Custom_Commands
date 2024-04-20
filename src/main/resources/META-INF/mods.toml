@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="${loader_version_range}"
+loaderVersion="[40,)"
 license="MIT"
 
 [[mods]]
@@ -21,12 +21,12 @@ https://www.curseforge.com/minecraft/mc-mods/create-custom-command
 [[dependencies.createcustomcommand]]
 modId="forge"
 mandatory=true
-versionRange="${forge_version_range}"
+versionRange="[40,)"
 ordering="NONE"
 side="BOTH"
 [[dependencies.createcustomcommand]]
 modId="minecraft"
 mandatory=true
-versionRange="${minecraft_version_range}"
+versionRange="[1.18,1.19)"
 ordering="NONE"
 side="BOTH"
