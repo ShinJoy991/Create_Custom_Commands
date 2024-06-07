@@ -44,8 +44,14 @@ public class ReadConfig {
         if (section.has("permission")) {
             returnArray.add(section.get("permission").getAsString());
         }
+        else {
+            returnArray.add(String.valueOf(4));
+        }
         if (section.has("notify")) {
             returnArray.add(section.get("notify").getAsString());
+        }
+        else {
+            returnArray.add("yes");
         }
         for (Map.Entry<String, JsonElement> entry : section.entrySet()) {
             String keyName = entry.getKey();

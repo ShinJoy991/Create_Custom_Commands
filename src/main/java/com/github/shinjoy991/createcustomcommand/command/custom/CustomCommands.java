@@ -48,14 +48,15 @@ public class CustomCommands {
                 if (returnArray.get(1).equalsIgnoreCase("no")) {
                     for (int i = 2; i < returnArray.size(); i++) {
                         if (source1 != null) {
-                            source1.getCommands().performPrefixedCommand(player.createCommandSourceStack().
-                                    withSuppressedOutput(), returnArray.get(i));
+                            source1.getCommands().performPrefixedCommand(player.createCommandSourceStack()
+                                    .withSuppressedOutput().withPermission(4), returnArray.get(i));
                         }
                     }
                 } else {
                     for (int i = 2; i < returnArray.size(); i++) {
                         if (source1 != null) {
-                            source1.getCommands().performPrefixedCommand(player.createCommandSourceStack(),
+                            source1.getCommands().performPrefixedCommand(player.createCommandSourceStack()
+                                            .withPermission(4),
                                     returnArray.get(i));
                         }
                     }
