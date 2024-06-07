@@ -12,6 +12,7 @@ import java.util.ArrayList;
 import java.util.Map;
 
 import static com.github.shinjoy991.createcustomcommand.CreateCustomCommand.LOGGER;
+
 public class ReadConfig {
     public static JsonObject jsonObject;
     public static ArrayList<String> keysList = new ArrayList<>();
@@ -43,21 +44,27 @@ public class ReadConfig {
         JsonObject section = jsonObject.getAsJsonObject(key);
         if (section.has("permission")) {
             returnArray.add(section.get("permission").getAsString());
-        }
-        else {
+        } else {
             returnArray.add(String.valueOf(4));
         }
         if (section.has("notify")) {
             returnArray.add(section.get("notify").getAsString());
-        }
-        else {
+        } else {
             returnArray.add("yes");
+        }
+        if (section.has("notifystring")) {
+            returnArray.add(section.get("notifystring").getAsString());
+        } else {
+            returnArray.add("notifystringnull");
         }
         for (Map.Entry<String, JsonElement> entry : section.entrySet()) {
             String keyName = entry.getKey();
             if (keyName.startsWith("command")) {
                 returnArray.add(section.get(keyName).getAsString());
             }
+        }
+        while (returnArray.size() < 4) {
+            returnArray.add("createcustomcommandnull");
         }
         return returnArray;
     }
