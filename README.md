@@ -14,4 +14,6 @@ Features:
 
 - Config is super easy to use.
 
+- Toggle command feedback or create a custom colored one.
+
 - Add some debug messages.
