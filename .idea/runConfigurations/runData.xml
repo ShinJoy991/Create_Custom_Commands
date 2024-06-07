@@ -1,24 +1,25 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="runData" type="Application" factoryName="Application" singleton="true">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component>
+  <configuration default="false" factoryName="Application" name="runData" singleton="false" type="Application">
+    <option name="MAIN_CLASS_NAME" value="net.minecraftforge.userdev.LaunchTesting"/>
+    <option name="VM_PARAMETERS" value="-Dforge.logging.console.level=debug -Dforge.logging.markers=REGISTRIES -XX:+IgnoreUnrecognizedVMOptions --add-exports=java.base/sun.security.util=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=java.naming --add-opens=java.base/java.util.jar=ALL-UNNAMED"/>
+    <option name="PROGRAM_PARAMETERS" value="--mod createcustomcommands --all --output &quot;C:\Users\TRAN HOANG MINH NHUT\IdeaProjects\CreateCustomCommands_folder\CreatecustomCommands_v3.1_1165_new\src\generated\resources&quot; --existing &quot;C:\Users\TRAN HOANG MINH NHUT\IdeaProjects\CreateCustomCommands_folder\CreatecustomCommands_v3.1_1165_new\src\main\resources&quot;"/>
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$\run-data"/>
+    <module name="CreateCustomCommands.main"/>
     <envs>
-      <env name="MOD_CLASSES" value="createcustomcommands%%$PROJECT_DIR$/../CreatecustomCommands_v3.1\build\resources\main;createcustomcommands%%$PROJECT_DIR$/../CreatecustomCommands_v3.1\build\classes\java\main" />
-      <env name="MCP_MAPPINGS" value="official_1.16.5" />
-      <env name="MCP_VERSION" value="20210115.111550" />
-      <env name="FORGE_VERSION" value="36.2.39" />
-      <env name="assetIndex" value="1.16" />
-      <env name="assetDirectory" value="C:\Users\TRAN HOANG MINH NHUT\.gradle\caches\forge_gradle\assets" />
-      <env name="FORGE_GROUP" value="net.minecraftforge" />
-      <env name="target" value="fmluserdevdata" />
-      <env name="MC_VERSION" value="1.16.5" />
+      <env name="MOD_CLASSES" value="createcustomcommands%%$PROJECT_DIR$\build\resources\main;createcustomcommands%%$PROJECT_DIR$\build\classes\java\main"/>
+      <env name="MCP_MAPPINGS" value="official_1.16.5"/>
+      <env name="MCP_VERSION" value="20210115.111550"/>
+      <env name="FORGE_VERSION" value="36.2.39"/>
+      <env name="assetIndex" value="1.16"/>
+      <env name="assetDirectory" value="C:\Users\TRAN HOANG MINH NHUT\.gradle\caches\forge_gradle\assets"/>
+      <env name="FORGE_GROUP" value="net.minecraftforge"/>
+      <env name="target" value="fmluserdevdata"/>
+      <env name="MC_VERSION" value="1.16.5"/>
     </envs>
-    <option name="MAIN_CLASS_NAME" value="net.minecraftforge.userdev.LaunchTesting" />
-    <module name="CreateCustomCommands.main" />
-    <option name="PROGRAM_PARAMETERS" value="--mod createcustomcommands --all --output &quot;C:\Users\TRAN HOANG MINH NHUT\IdeaProjects\CreateCustomCommands_folder\CreatecustomCommands_v3.1\src\generated\resources&quot; --existing &quot;C:\Users\TRAN HOANG MINH NHUT\IdeaProjects\CreateCustomCommands_folder\CreatecustomCommands_v3.1\src\main\resources&quot;" />
-    <option name="VM_PARAMETERS" value="-Dforge.logging.console.level=debug -Dforge.logging.markers=REGISTRIES -XX:+IgnoreUnrecognizedVMOptions --add-exports=java.base/sun.security.util=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=java.naming --add-opens=java.base/java.util.jar=ALL-UNNAMED" />
-    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../CreatecustomCommands_v3.1\run-data" />
     <method v="2">
-      <option name="Make" enabled="true" />
-      <option name="Gradle.BeforeRunTask" enabled="true" tasks=":prepareRunDataCompile" externalProjectPath="$PROJECT_DIR$" />
+      <option enabled="true" name="Make"/>
+      <option enabled="true" externalProjectPath="$PROJECT_DIR$" name="Gradle.BeforeRunTask" tasks=":prepareRunDataCompile"/>
     </method>
   </configuration>
 </component>

@@ -43,15 +43,27 @@ public class ReadConfig {
         JsonObject section = jsonObject.getAsJsonObject(key);
         if (section.has("permission")) {
             returnArray.add(section.get("permission").getAsString());
+        } else {
+            returnArray.add(String.valueOf(4));
         }
         if (section.has("notify")) {
             returnArray.add(section.get("notify").getAsString());
+        } else {
+            returnArray.add("yes");
+        }
+        if (section.has("notifystring")) {
+            returnArray.add(section.get("notifystring").getAsString());
+        } else {
+            returnArray.add("notifystringnull");
         }
         for (Map.Entry<String, JsonElement> entry : section.entrySet()) {
             String keyName = entry.getKey();
             if (keyName.startsWith("command")) {
                 returnArray.add(section.get(keyName).getAsString());
             }
+        }
+        while (returnArray.size() < 4) {
+            returnArray.add("createcustomcommandnull");
         }
         return returnArray;
     }

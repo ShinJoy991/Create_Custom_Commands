@@ -20,14 +20,14 @@ https://www.curseforge.com/minecraft/mc-mods/create-custom-command
 
 [[dependencies."${mod_id}"]]
    modId="forge"
-   mandatory=true
+   mandatory=false
    versionRange="${forge_version_range}"
    ordering="NONE"
    side="BOTH"
 
 [[dependencies."${mod_id}"]]
    modId="minecraft"
-   mandatory=true
+   mandatory=false
    versionRange="${minecraft_version_range}"
    ordering="NONE"
    side="BOTH"

@@ -4,7 +4,7 @@ license="MIT License"
 
 [[mods]]
 modId="createcustomcommands"
-version="3.1"
+version="1.16.5v1.2"
 displayName="Create Custom Commands
 "
 authors="ShinJoy991"
@@ -21,14 +21,14 @@ https://www.curseforge.com/minecraft/mc-mods/create-custom-command
 
 [[dependencies."createcustomcommands"]]
    modId="forge"
-   mandatory=true
+   mandatory=false
    versionRange="[36,)"
    ordering="NONE"
    side="BOTH"
 
 [[dependencies."createcustomcommands"]]
    modId="minecraft"
-   mandatory=true
+   mandatory=false
    versionRange="[1.16.5,1.17)"
    ordering="NONE"
    side="BOTH"
