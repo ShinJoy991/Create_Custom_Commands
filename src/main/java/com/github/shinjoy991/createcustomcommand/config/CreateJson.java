@@ -145,6 +145,28 @@ public class CreateJson {
         data15.put("command1", "weather clear");
         jsonData.put("wea", data15);
 
+        Map<String, Object> data16 = new LinkedHashMap<>();
+        data16.put("permission", "0");
+        data16.put("notify", "yes");
+        data16.put("notifystring", "&6[&1Create &2Custom &3Command&6] &l&fColor &atext");
+        data16.put("command1", "say just say command");
+        jsonData.put("ccccolortext", data16);
+
+        Map<String, Object> data17 = new LinkedHashMap<>();
+        data17.put("permission", "0");
+        data17.put("notify", "yes");
+        data17.put("notifystring", "&9Don&8t&7 messing &l&6 up &5 &l colors &4like &&3&lthis");
+        data17.put("command1", "say just say command");
+        jsonData.put("ccccolortext1", data17);
+
+        Map<String, Object> data18 = new LinkedHashMap<>();
+        data18.put("permission", "4");
+        data18.put("notify", "no");
+        data18.put("notifystring", "");
+        data18.put("command1", "effect give @p minecraft:instant_health 1 255 false");
+        data18.put("command2", "effect give @p minecraft:saturation 1 255 false");
+        jsonData.put("heal", data18);
+
         // Write the data to the JSON file
         try (FileWriter writer = new FileWriter(configFile.toFile())) {
             // Use GSON to serialize the data to JSON
