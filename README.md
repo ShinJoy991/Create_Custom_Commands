@@ -1,19 +1,19 @@
 **Tired because your typing skill is so slow? because commands too long? or because your keyboard crashed? This is what you need.**
 
-
-I created this coz the *beep* I can't find ANY mod have this simple, base, normally feature for Forge 1.16.5 I'm playing.
-
+https://www.curseforge.com/minecraft/mc-mods/create-custom-command
 
 Features:
 
-- This mod allows you to create your custom commands in game, with simple text and speed up your time.
+- This mod allows you to create your custom commands in game, with simple text and speed up your time
 
-- You can config op-permission require to use this mod commands. 
+- You can config op-permission require to use for each command. (The op permission normally is 4)
 
-- Unlock unlimited commands, you can do what ever you want.
+- You can toggle feedback's notification of each command (normally yes)
 
-- Config is super easy to use.
+- You can bind many commands to one key word
 
-- Toggle command feedback or create a custom colored one.
+- Unlimited commands, you can add as many as you want
 
-- Add some debug messages.
+- Config is super easy to use
+
+- Customize your commands's feedback, player will receive message base on your custom instead of vanilla one
