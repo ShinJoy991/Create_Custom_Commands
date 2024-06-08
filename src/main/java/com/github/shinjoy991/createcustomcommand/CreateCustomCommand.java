@@ -18,7 +18,7 @@ import static com.github.shinjoy991.createcustomcommand.config.ReadConfig.readJs
 public class CreateCustomCommand {
 
     // Define mod id in a common place for everything to reference
-    public static final String MOD_ID = "createcustomcommand";
+    public static final String MOD_ID = "create_custom_command";
     // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
 
